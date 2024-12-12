@@ -49,10 +49,9 @@ pdf.set_font('Arial', 'BI', 14)
 pdf.cell(200, 8, limpar_texto('Resumo Profissional'), ln=True)
 pdf.ln(1)
 pdf.set_font('Arial', '', 12)
-summary_text = "Profissional com mais de 2 anos de experiência em vendas internas e atendimento ao cliente, com foco em Customer Experience (CX) e relacionamento digital. "\
-               "Reconhecido como 2º melhor vendedor do Brasil no programa Best Quality Sales Honda 2023 pela excelência no relacionamento com clientes e parceiros.\n"\
-               "Atualmente em transição para a área de Tecnologia da Informação, cursando Análise e Desenvolvimento de Sistemas. Possuo conhecimentos em Python, SQL e análise de dados, "\
-               "com habilidades em gestão de projetos, suporte técnico em TI e otimização de processos."
+summary_text = "    Com mais de dois anos de dedicação à Fuji-Moto Honda, destaco-me por minha habilidade em vendas internas e atendimento ao cliente, tanto presencial quanto digital. A excelência no relacionamento com clientes e parceiros bancários tem sido a base para a fidelização e resultados notáveis – habilidades honradas com o reconhecimento como 2º melhor vendedor do Brasil pelo programa Best Quality Sales Honda 2023. \n"\
+               "    Além disso, estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas, em uma transição para a área de TI. Meu conhecimento em Python, SQL e análise de dados complementa minhas habilidades de gestão de projetos e atenção aos detalhes, contribuindo para a otimização de processos e a garantia da qualidade. \n"\
+               "    A combinação de competências técnicas e foco no cliente me permite resolver problemas de forma analítica, sempre priorizando a entrega de valor. Busco oportunidades em que possa integrar minha experiência em Customer Experience (CX) com o uso de tecnologia e dados para impulsionar resultados. "
 pdf.multi_cell(0, 7, limpar_texto(summary_text))
 
 # Experiência Profissional
