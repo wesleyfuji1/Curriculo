@@ -66,9 +66,7 @@ pdf.cell(200, 8, limpar_texto('Fuji-Moto Honda - Vendedor Interno e F&I'), ln=Tr
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Abril de 2022 – Atual | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-fuji_moto_text = "Fiquei 2 anos atuando exclusivamente como F&I, mantendo sempre o bom relacionamento com o setor bancário, assim como com os clientes, \
-oportunizando a fidelização do cliente com um pós venda eficiente. Após esse período fui recolocado no setor de vendas internas, atendendo \
-clientes dentro da concessionária, tanto pessoalmente quanto remoto (telefone, redes sociais)."
+fuji_moto_text = "Fiquei 2 anos atuando exclusivamente como F&I, mantendo sempre o bom relacionamento com o setor bancário, assim como com os clientes, oportunizando a fidelização do cliente com um pós venda eficiente. Após esse período fui recolocado no setor de vendas internas, atendendo clientes dentro da concessionária, tanto pessoalmente quanto remoto (telefone, redes sociais)."
 pdf.multi_cell(0, 7, limpar_texto(fuji_moto_text))
 
 # Ultrafarma
@@ -78,10 +76,8 @@ pdf.cell(200, 8, limpar_texto('Ultrafarma - Atendimento ao Cliente'), ln=True)
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Outubro de 2021 – Março de 2022 | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-ultrafarma_text = "Durante 2 meses atendi clientes no balcão e nas dependências da farmácia, bem como repor mercadorias e acompanhar as \
-validades dos produtos, separando os vencidos para o devido descarte. \n" \
-"Nos outros 3 meses, fiquei responsável pelo Whatsapp da farmácia. Nesse período, mesmo atendendo somente no digital, ficava sempre no \
-topo dos resultados de vendas mensais."
+ultrafarma_text = "Durante 2 meses atendi clientes no balcão e nas dependências da farmácia, bem como repor mercadorias e acompanhar as validades dos produtos, separando os vencidos para o devido descarte. \n" \
+"Nos outros 3 meses, fiquei responsável pelo Whatsapp da farmácia. Nesse período, mesmo atendendo somente no digital, ficava sempre no topo dos resultados de vendas mensais."
 pdf.multi_cell(0, 7, limpar_texto(ultrafarma_text))
 
 # Farmácias Pague Menos
@@ -91,9 +87,7 @@ pdf.cell(200, 8, limpar_texto('Farmácias Pague Menos - Atendimento ao Cliente')
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Abril de 2021 – Outubro de 2021 | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-pague_menos_text = "A principal função era atender ao cliente no balcão e dependências da \
-farmácia, bem como passar as compras no caixa, repor mercadorias nas prateleiras, colocar preços na sessão sob minha responsabilidade e \
-acompanhar as validades dos produtos, retirando os vencidos para devido descarte."
+pague_menos_text = "A principal função era atender ao cliente no balcão e dependências da farmácia, bem como passar as compras no caixa, repor mercadorias nas prateleiras, colocar preços na sessão sob minha responsabilidade e acompanhar as validades dos produtos, retirando os vencidos para devido descarte."
 pdf.multi_cell(0, 7, limpar_texto(pague_menos_text))
 
 # Fuji-Moto Honda (Vendedor de Varejo)
@@ -103,8 +97,7 @@ pdf.cell(200, 8, limpar_texto('Fuji-Moto Honda - Vendedor de Varejo'), ln=True)
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Dezembro de 2019 – Abril de 2021 | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-vendedor_text = "Minha principal função era vender motocicletas, consórcios novos e de reposição. Atuei nas vendas internas, como também externas, visitando as \
-mais de 20 cidades de atuação da concessionária. Quando estava em loja auxiliava no suporte técnico nas impressoras, computadores, e notebooks."
+vendedor_text = "Minha principal função era vender motocicletas, consórcios novos e de reposição. Atuei nas vendas internas, como também externas, visitando as mais de 20 cidades de atuação da concessionária. Quando estava em loja auxiliava no suporte técnico nas impressoras, computadores, e notebooks."
 pdf.multi_cell(0, 7, limpar_texto(vendedor_text))
 
 # Hospital do Câncer Uopeccan
@@ -114,8 +107,7 @@ pdf.cell(200, 8, limpar_texto('Hospital do Câncer Uopeccan - Assistente de Farm
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Dezembro de 2018 – Dezembro de 2019 | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-hospital_text = "Meu trabalho era no CAF do hospital. Auxiliava na separação dos medicamentos e materiais que eram requisitados por cada setor a fim de \
-abastecê-los, conforme utilizavam. Também ajudava no controle de validade de todo o estoque, com contagens realizadas todo final de semana."
+hospital_text = "Meu trabalho era no CAF do hospital. Auxiliava na separação dos medicamentos e materiais que eram requisitados por cada setor a fim de abastecê-los, conforme utilizavam. Também ajudava no controle de validade de todo o estoque, com contagens realizadas todo final de semana."
 pdf.multi_cell(0, 7, limpar_texto(hospital_text))
 
 # Fuji-Moto Honda (Auxiliar Administrativo)
@@ -125,8 +117,7 @@ pdf.cell(200, 8, limpar_texto('Fuji-Moto Honda - Auxiliar Administrativo'), ln=T
 pdf.set_font('Arial', 'I', 12)
 pdf.cell(200, 7, limpar_texto('Maio de 2013 – Novembro de 2018 | Umuarama, PR'), ln=True)
 pdf.set_font('Arial', '', 12)
-auxiliar_text = "Minha principal função era vender motocicletas e seguros. Também auxiliava no suporte técnico de informática nas impressoras, computadores, e \
-notebooks da empresa. \n" \
+auxiliar_text = "Minha principal função era vender motocicletas e seguros. Também auxiliava no suporte técnico de informática nas impressoras, computadores, e notebooks da empresa. \n" \
 "Trabalhei nos último 8 meses como auxiliar contábil, organizando as contas a pagar e a receber da empresa."
 pdf.multi_cell(0, 7, limpar_texto(auxiliar_text))
 
