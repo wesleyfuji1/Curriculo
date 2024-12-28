@@ -163,7 +163,9 @@ pdf.ln(2)
 pdf.set_font('Arial', '', 12)
 certificacoes_text = "- Best Quality Sales Honda 2023 – 2º Melhor Vendedor do Brasil.\n"\
                      "- Linguagem de Programação Python - Fundação Bradesco.\n"\
-                     "- Hardware e Software – Montagem e Manutenção de Computadores."
+                     "- Hardware e Software – Montagem e Manutenção de Computadores - Inbrac.\n"\
+                     "- Informática Avançada - Inbrac.\n"\
+                     "- Bombeiro Profissional Civil - Ibrav."
 pdf.multi_cell(0, 8, limpar_texto(certificacoes_text))
 
 # Salvando o arquivo
