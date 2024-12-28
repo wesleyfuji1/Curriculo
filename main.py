@@ -162,10 +162,8 @@ pdf.cell(200, 8, limpar_texto('Certificações'), ln=True)
 pdf.ln(2)
 pdf.set_font('Arial', '', 12)
 certificacoes_text = "- Best Quality Sales Honda 2023 – 2º Melhor Vendedor do Brasil.\n"\
-                     "- Introdução à Programação Orientada a Objetos (POO).\n"\
-                     "- Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python.\n"\
-                     "- Linguagem de Programação Python – Básico.\n"\
-                     "- Hardware e Software – Montagem e Manutenção."
+                     "- Linguagem de Programação Python - Fundação Bradesco.\n"\
+                     "- Hardware e Software – Montagem e Manutenção de Computadores."
 pdf.multi_cell(0, 8, limpar_texto(certificacoes_text))
 
 # Salvando o arquivo
